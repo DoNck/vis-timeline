@@ -28,9 +28,9 @@ export type DataViewDataItem = DataView<DataItem, 'id'>;
 import * as util from 'vis-util';
 export { util };
 
-import moment from 'moment'
+import * as moment from 'moment'
 export { moment }
-import Hammer from 'hammerjs'
+import * as Hammer from 'hammerjs'
 export { Hammer }
 import keycharm from 'keycharm'
 export { keycharm }
